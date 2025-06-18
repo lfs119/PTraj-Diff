@@ -41,12 +41,23 @@ The topology and coordinates files are downloaded from:
 ```
 
 ## Model Metrics
-DockQ
+
+### DockQ
+DockQ: A Quality Measure for Protein-Protein Docking Models
+
+https://github.com/bjornwallner/DockQ
+
+*  Basu, S. and Wallner, B., 2016. DockQ: a quality measure for protein-protein docking models. PloS one, 11(8), p.e0161879.
+*  Mirabello, C. and Wallner, B., 2024. DockQ v2: Improved automatic quality measure for protein multimers, nucleic acids, and small molecules. bioRxiv, pp.2024-05.  
+
 ```
 pip install DockQ
 DockQ examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb
 ```
-TM-Score
+
+
+### TM-Score
+
 ```
 wget https://zhanggroup.org/TM-score/TMscore.cpp
 g++ -static -O3 -ffast-math -lm -o TMscore TMscore.cpp
