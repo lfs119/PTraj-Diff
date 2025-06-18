@@ -58,7 +58,7 @@ DockQ examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb
 
 ### TM-Score
 
-```
+```c++
 wget https://zhanggroup.org/TM-score/TMscore.cpp
 g++ -static -O3 -ffast-math -lm -o TMscore TMscore.cpp
 TMscore model.pdb native.pdb
@@ -72,9 +72,9 @@ https://github.com/bjing2016/mdgen.git
 ```
 
 ## Lincense
-```
+
 Code is released under MIT LICENSE.
-```
+
 
 ## Citation
 
