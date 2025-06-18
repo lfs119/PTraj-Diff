@@ -19,7 +19,7 @@ pip install matplotlib==3.7.2 numpy==1.23.5  pandas==1.5.3
 The model weights used in the paper may be downloaded here:
 
 ```
-https://drive.google.com/drive/folders/1vrmGUiZlDqikxunZY_C7HnjdfZk3ToSc?usp=sharing
+https://drive.google.com/drive/folders/1vrmGUiZlDqikxunZY_C7HnjdfZk3ToSc?usp=sharing or https://zenodo.org/records/15687136
 
 ```
 
@@ -37,7 +37,7 @@ python  sim_inference_bert.py   --sim_ckpt  path/weights   --output_dir  path/to
 ## MD topology and coordinates
 The topology and coordinates files are downloaded from: 
 ```
- https://drive.google.com/drive/folders/1OrUq6BedZu9XyTolMmL0VkJrLYRCuQQn?usp=sharing
+ https://drive.google.com/drive/folders/1OrUq6BedZu9XyTolMmL0VkJrLYRCuQQn?usp=sharing or https://zenodo.org/records/15687037
 ```
 
 ## Model Metrics
