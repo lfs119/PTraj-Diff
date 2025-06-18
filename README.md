@@ -7,7 +7,7 @@ Implementation of[Efficient Generation of Protein and Protein-Protein Complex Dy
 
 ## Installation
 
-```
+```python
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121 
 pip install pytorch_lightning==2.0.4 mdtraj==1.9.9 biopython==1.79
 pip install wandb dm-tree einops torchdiffeq pyEMMA torchtyping transformer
@@ -24,12 +24,12 @@ https://drive.google.com/drive/folders/1vrmGUiZlDqikxunZY_C7HnjdfZk3ToSc?usp=sha
 ```
 
 ## Inference
-```
+```python
 # protein
 python  sim_inference_bert.py   --sim_ckpt  path/weights   --output_dir  path/to/save   --num_frames 3000  --split splits/chain_test_split.csv --num_rollouts 1 --xtc  --suffix _i10   --af3 --base_path_cif  sim_data/1phv
 ```
 
-```
+```python
 # protein-protein complex
 python  sim_inference_bert.py   --sim_ckpt  path/weights   --output_dir  path/to/save   --num_frames 3000  --split splits/ppmid_test_x.csv --num_rollouts 1 --xtc --suffix _i10  --af3 --base_path_cif  sim_data/1brs
 ```
