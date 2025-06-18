@@ -1,6 +1,6 @@
 # PTraj-Diff
 
-Implementation of[Efficient Generation of Protein and Protein-Protein Complex Dynamics via SE(3)-Parameterized Diffusion Models]
+Implementation of[**Efficient Generation of Protein and Protein-Protein Complex Dynamics via SE(3)-Parameterized Diffusion Models**]
 
 ![TOC.png](TOC.png)
 
